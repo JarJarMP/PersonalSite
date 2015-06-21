@@ -8,6 +8,12 @@ MAINTAINER Peter Maroti
 RUN apt-get -y update
 RUN apt-get -y upgrade
 
-# Installs
-RUN apt-get -y install ruby ruby-dev make nodejs 
+# Install requirements
+RUN apt-get -y install ruby ruby-dev make nodejs npm git
+
+# Install jekyll
 RUN gem install jekyll
+
+# Install bower
+RUN npm install -g bower
+RUN ln -s /usr/bin/nodejs /usr/bin/node
