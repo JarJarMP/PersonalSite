@@ -1,11 +1,20 @@
-# change source and destination folders for building site
+# source and destination folders for jekyll building
 source: ./jekyll_source
 destination: ./jekyll_result
 
-# set up default layout
+# collections
+collections:
+    collection_web: # web projects
+        output: true # generate separate files
+    collection_offline: # offline projects
+        output: true # generate separate files
+    collection_lists: # listing pages for web and offline projects
+        output: true # generate separate files
+
+# set up default layout for all pages
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
