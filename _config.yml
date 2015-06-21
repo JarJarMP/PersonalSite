@@ -2,7 +2,6 @@
 source: ./jekyll_source
 destination: ./jekyll_result
 
-# TODO - FIX THIS, NOT WORKING
 # set up default layout
 defaults:
   -
