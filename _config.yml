@@ -5,12 +5,9 @@ destination: ./jekyll_result
 # sass options
 sass:
     style: :compressed # output style
-    sass_dir:  _third_party # add load path
-# multiple load paths seems to be broken :(
-# https://github.com/jekyll/jekyll/issues/3366
-#    load_paths:
-#        - _sass
-#        - _third_party        
+    load_paths: # load paths
+        - jekyll_source/_sass
+        - jekyll_source/_third_party
 
 # collections
 collections:
