@@ -17,3 +17,6 @@ RUN gem install jekyll
 # Install bower
 RUN npm install -g bower
 RUN ln -s /usr/bin/nodejs /usr/bin/node
+
+# Install grunt-cli
+RUN npm install -g grunt-cli
