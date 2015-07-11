@@ -7,10 +7,17 @@
 // Layout - body
 body{
 	background-color: color("grey", "lighten-4");
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
 }
 
 // Layout - footer
-footer.page{
+.page-footer{
 	padding: 1rem 0;
 	text-align: center;
 
