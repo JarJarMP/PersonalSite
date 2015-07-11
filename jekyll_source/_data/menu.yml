@@ -1,0 +1,12 @@
+-
+    name: Home
+    url: /
+-
+    name: Web
+    url: /projects/web/
+-
+    name: Offline
+    url: /projects/offline/
+-
+    name: About
+    url: /about/

@@ -1,4 +1,54 @@
 ---
 ---
 
+@import "materialize/sass/components/color"; // duplicate color styles, but there are no mixins in materialize color component
 @import "materialize/sass/materialize";
+
+// Layout - body
+body{
+	background-color: color("grey", "lighten-4");
+}
+
+// Layout - footer
+footer.page{
+	padding: 1rem 0;
+	text-align: center;
+
+	ul{
+		margin: 0;
+
+		li{
+			border-right: 1px solid color("grey", "lighten-4");
+			display: inline-block;
+			margin-left: 1rem;
+			padding-right: 1rem;
+
+			&:last-child{
+				border-right: 0;
+			}
+
+			a, a:hover, a:visited, a:link{
+				color: color("grey", "lighten-4");
+				text-decoration: underline;
+				padding: 0;
+			}
+		}
+	}
+}
+
+// Page Content
+.page-content--home--hero{
+	padding: 4rem 0;
+
+	a{
+		margin: 0 0.5rem;
+	}
+}
+
+.page-content--home--columns{
+	.icon-block{
+		i{
+			font-size: 3rem;
+		}
+	}
+}

@@ -1,19 +1,17 @@
-<header>
-    <h1>&lt;?MP/></h1>
-    <nav>
-        <ul>
-            <li>
-                <a target="_top" href="/">Home</a>
-            </li>
-            <li>
-                <a target="_top" href="/projects/web/">Web</a>
-            </li>
-            <li>
-                <a target="_top" href="/projects/offline/">Offline</a>
-            </li>
-            <li>
-                <a target="_top" href="/about/">About</a>
-            </li>
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo">&lt;?MP/></a>
+    
+        <ul class="right hide-on-med-and-down">
+            {% include navigation.html %}
         </ul>
-    </nav>
-</header>
+
+        <ul id="nav-mobile" class="side-nav">
+            {% include navigation.html %}
+        </ul>
+        
+        <a href="#" data-activates="nav-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+    </div>
+</nav>
