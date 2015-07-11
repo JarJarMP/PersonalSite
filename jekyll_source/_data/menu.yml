@@ -8,5 +8,8 @@
     name: Offline
     url: /projects/offline/
 -
+    name: LEGO
+    url: /lego/
+-
     name: About
     url: /about/
