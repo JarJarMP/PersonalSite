@@ -1,0 +1,21 @@
+---
+title: LEGO
+---
+
+<div class="section page-content--lego">
+    <div class="container">
+        <div class="row">
+        	<div class="col s10">
+        		<h3>LEGO</h3>
+        		<div class="collection">
+					{% for post in site.posts %}
+						<a target="_top" href="{{ post.url }}" class="collection-item">
+							[{{ post.date | date: '%Y-%m-%d' }}] {{ post.title }}
+						</a>
+					{% endfor %}
+				</div>
+        	</div>
+        </div>
+	</div>
+</div>
+
