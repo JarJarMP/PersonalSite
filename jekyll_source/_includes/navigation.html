@@ -1,7 +1,7 @@
 {% assign menu = site.data.menu %}
 
 {% for menupoint in menu %}
-    {% if menupoint.name == page.title %}
+    {% if menupoint.name == page.active_menu %}
         <li class='active'>
     {% else %}
         <li>
