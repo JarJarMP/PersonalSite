@@ -6,15 +6,27 @@
 permalink: projects/offline/index.html
 
 title: Offline Projects
+active_menu: Offline
 ---
 
-<p>offline projects listing</p>
-<ul>
-    <li>xÁT v2 <span>2014</span></li>
-    <li>xÁT v1 <span>2013</span></li>
-    <li>My University Thesis <span>2012</span></li>
-    <li>Ski speed meter <span>2012</span></li>
-    <li>Race pigeon speed calculator <span>2012</span></li>
-    <li>C/C++ tutoring <span>2010-2012</span></li>
-    <li>Quiz Game <span>2005</span></li>
-</ul>
+{% assign projects = site.data.offline_projects %}
+
+<div class="section page-content--projcets-offline">
+    <div class="container">
+        <div class="row">
+            <div class="col s10">
+                <h3>Offline projects</h3>
+
+                <div class="collection">
+                    {% for project in projects %}
+                        <a target="_top" href="{{ project.url }}" class="collection-item">
+                            <span class="project-listing-year">[ {{ project.year }} ] </span>
+                            &nbsp;
+                            <span class="project-listing-name">{{ project.name }}</span>
+                        </a>
+                    {% endfor %}                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -11,7 +11,9 @@ active_menu: LEGO
                 <div class="collection">
                     {% for post in site.posts %}
                         <a target="_top" href="{{ post.url }}" class="collection-item">
-                            [{{ post.date | date: '%Y-%m-%d' }}] {{ post.title }}
+                            <span class="lego-listing-date">[ {{ post.date | date: '%Y-%m-%d' }} ] </span>
+                            &nbsp;
+                            <span class="lego-listing-title">{{ post.title }}</span>
                         </a>
                     {% endfor %}
                 </div>
