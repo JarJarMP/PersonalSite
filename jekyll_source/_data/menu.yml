@@ -1,15 +1,15 @@
 -
-    name: Home
-    url: /
+    name: "Home"
+    url: "/"
 -
-    name: Web
-    url: /projects/web/
+    name: "Web"
+    url: "/projects/web/"
 -
-    name: Offline
-    url: /projects/offline/
+    name: "Offline"
+    url: "/projects/offline/"
 -
-    name: LEGO
-    url: /lego/
+    name: "LEGO"
+    url: "/lego/"
 -
-    name: About
-    url: /about/
+    name: "About"
+    url: "/about/"
