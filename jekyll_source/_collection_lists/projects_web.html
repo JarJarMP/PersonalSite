@@ -5,11 +5,9 @@
 # set up in each page for collections
 permalink: projects/web/index.html
 
-title: Web Projects
-active_menu: Web
+title: "Web Projects"
+active_menu: "Web"
 ---
-
-{% assign projects = site.data.web_projects %}
 
 <div class="section page-content--projects-web">
     <div class="container">
@@ -18,7 +16,7 @@ active_menu: Web
                 <h3>Web projects</h3>
 
                 <div class="collection">
-                    {% for project in projects %}
+                    {% for project in site.data.web_projects %}
                         <a target="_top" href="{{ project.url }}" class="collection-item">
                             <span class="project-listing-year">[ {{ project.year }} ] </span>
                             &nbsp;
