@@ -1,9 +1,9 @@
 # PersonalSite
-The source code of my personal site.
+The source code of my [personal site](http://marotipeter.com).
 
 How to fire it up
  * clone/download repo content
  * $ bower install
  * $ npm install
  * $ grunt
- * $ jekyll serve --force_polling
+ * $ jekyll serve
