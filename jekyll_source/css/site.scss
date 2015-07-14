@@ -16,6 +16,15 @@ main{
     flex: 1 0 auto;
 }
 
+.project-badge{
+    background-color: color("orange", "lighten-2");
+    color: color("grey", "lighten-5");
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.3rem 0.6rem;
+}
+
 // Layout - footer
 .page-footer{
     padding: 1rem 0;
