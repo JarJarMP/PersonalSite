@@ -18,7 +18,7 @@ collections:
     collection_lists: # listing pages for web and offline projects
         output: true # generate separate files
 
-# set up default layout for all pages
+# set up default layouts and permalink
 defaults:
     -
         scope:
@@ -31,3 +31,9 @@ defaults:
             type: "posts"
         values:
             permalink: "/lego/:year-:month-:day/:title/"
+    -
+        scope:
+            path: ""
+            type: "collection_offline"
+        values:
+            layout: "offline_project"

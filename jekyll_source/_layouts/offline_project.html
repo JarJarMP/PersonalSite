@@ -1,0 +1,31 @@
+{% include head.html %}
+
+    <body>
+        <main>
+            {% include header.html %}
+            
+            <div class="section page-content--projects-offline--project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m10 l8">
+                            <h3>
+                                <a href="/projects/offline/">Offline</a> / {{ page.title }}
+                            </h3>
+
+                            <div class="project-badges">
+                                {% for badge in page.badges %}
+                                    <span class="project-badge">{{ badge }}</span>
+                                {% endfor %}
+                            </div>
+
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        {% include footer.html %}
+    </body>
+</html>
