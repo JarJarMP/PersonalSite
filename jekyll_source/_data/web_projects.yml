@@ -1,4 +1,8 @@
 -
+    name: "The Web People"
+    year: "2015"
+    url: "/projects/web/the-web-people"
+-
     name: "Youtube Subscription Exporter"
     year: "2014"
     url: "/projects/web/youtube-sub-exporter"
@@ -11,13 +15,13 @@
     year: "2014"
     url: "/projects/web/small-projects-2014"
 -
-    name: "Small projects in 2013"
-    year: "2013"
-    url: "/projects/web/small-projects-2013"
--
     name: "Larki Lexikon"
     year: "2012-2013"
     url: "/projects/web/larki-lexikon"
+-
+    name: "Small projects in 2013"
+    year: "2013"
+    url: "/projects/web/small-projects-2013"
 -
     name: "University projects"
     year: "2010"
