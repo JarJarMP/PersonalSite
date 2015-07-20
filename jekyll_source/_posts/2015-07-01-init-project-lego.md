@@ -1,6 +1,6 @@
 ---
 title:  "Init Project: LEGO"
-date:   2015-08-01
+date:   2015-07-01
 active_menu: LEGO
 ---
 
