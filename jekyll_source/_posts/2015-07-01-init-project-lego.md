@@ -20,7 +20,7 @@ active_menu: LEGO
                 <p>As I said, there are many sets waiting for me to open. They are mixed - bigger and smaller too, some MineCraft, some StarWars, City and Creator sets. But the first one will be the new <a target="_blank" href="https://ideas.lego.com/blogs/1-blog/post/33">Big Bang Theory set</a>, which arrives this summer. Cant wait! :)</p>
 
                 <p class="center-align">
-                    <img src="/img/lego/2015-08-01-init-project-lego/tbbt.jpg" alt="big-bang-theory-set-image">
+                    <img src="/img/lego/2015-07-01-init-project-lego/tbbt.jpg" alt="big-bang-theory-set-image">
                 </p>
             </div>
         </div>
