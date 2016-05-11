@@ -7,6 +7,10 @@
     year: "2013"
     url: "/projects/offline/xat-v1"
 -
+    name: "C/C++ tutoring" 
+    year: "2010-2013"
+    url: "/projects/offline/tutoring"
+-
     name: "University Thesis" 
     year: "2012"
     url: "/projects/offline/university-thesis"
@@ -18,10 +22,6 @@
     name: "Race pigeon speed calculator" 
     year: "2012"
     url: "/projects/offline/pigeon-speed-calculator"
--
-    name: "C/C++ tutoring" 
-    year: "2010-2013"
-    url: "/projects/offline/tutoring"
 -
     name: "Quiz Game" 
     year: "2005"
