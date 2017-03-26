@@ -1,0 +1,29 @@
+html, body {
+  font-size: $font-size-default;
+  height: 100%;
+}
+
+.content-selectors {
+  min-height: 100%;
+  @include clear-fix();
+}
+
+.content-selector {
+  float: left;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 25%;
+}
+
+@include set-content-selector-colors();
+
+.content-selector-text {
+  display: block;
+  font-family: $font-family-section-selector;
+  font-size: 30em;  
+  left: 20%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,16 @@
+$font-family-section-selector: 'PT Sans Narrow', sans-serif;
+$font-size-default: 16px;
+
+$selector-background-colors: (
+  (web, $color-green-light),
+  (offline, $color-blue-light),
+  (lego, $color-yellow-light),
+  (about, $color-brown-light),
+);
+
+$selector-font-colors: (
+  (web, $color-green-extra-dark),
+  (offline, $color-blue-extra-dark),
+  (lego, $color-yellow-extra-dark),
+  (about, $color-brown-extra-dark),
+);

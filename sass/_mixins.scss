@@ -1,0 +1,36 @@
+@mixin set-content-selector-colors() {
+  @include set-content-selector-backgrounds();
+  @include set-content-selector-fontcolors();
+}
+
+@mixin set-content-selector-backgrounds() {
+  @each $name, $color in $selector-background-colors {
+    .content-selector__#{$name} {
+      background: $color;
+    }
+  }
+}
+
+@mixin set-content-selector-fontcolors() {
+  @each $name, $color in $selector-font-colors {
+    .content-selector__#{$name} {
+      .content-selector-text {
+        color: $color;
+      }
+    }
+  }
+}
+
+@mixin box-sizing($type) {
+          box-sizing: $type;
+     -moz-box-sizing: $type;
+  -webkit-box-sizing: $type;
+}
+
+@mixin clear-fix() {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
