@@ -1,8 +1,3 @@
-.sass-cache
-.todo
-jekyll_result
-jekyll_source/_third_party
-jekyll_source/font/material-design-icons/
-jekyll_source/font/roboto/
-jekyll_source/js/materialize.min.js
-node_modules
+.sass-cache/
+node_modules/
+main.css

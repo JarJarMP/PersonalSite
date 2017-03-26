@@ -1,6 +1,0 @@
-ErrorDocument 400 /four-oh-four/
-ErrorDocument 401 /four-oh-four/
-ErrorDocument 402 /four-oh-four/
-ErrorDocument 403 /four-oh-four/
-ErrorDocument 404 /four-oh-four/
-ErrorDocument 500 /four-oh-four/

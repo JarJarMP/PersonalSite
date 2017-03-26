@@ -1,6 +1,0 @@
-{
-  "name": "personal-site",
-  "dependencies": {
-    "materialize": "~0.97.0"
-  }
-}

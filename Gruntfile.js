@@ -1,34 +1,33 @@
 module.exports = function(grunt) {
-
-  // Use "copy" plugin to load files 
-  // from third party libs into jekyll source folder
   grunt.initConfig({
-    copy: {
-      main: {
-        files: [
-          // materialize font files
-          {
-            expand: true, 
-            cwd: 'jekyll_source/_third_party/materialize/dist/font/',
-            src: ['**'], 
-            dest: 'jekyll_source/font/'
-          },
-          // materialize js files
-          {
-            expand: true,
-            cwd: 'jekyll_source/_third_party/materialize/dist/js/',
-            src: 'materialize.min.js', 
-            dest: 'jekyll_source/js/'
-          },
-        ],
+    sass: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: './sass/',
+          src: ['*.scss'],
+          dest: './',
+          ext: '.css'
+        }],
+        options: {
+          style: 'compressed',
+          sourcemap: 'none'
+        }
+      }
+    },
+
+    watch: {
+      files: {
+        files: ['sass/**.*'],
+        tasks: ['build']
       },
     },
   });
 
-  // Load the plugin that provides the "copy" task.
-  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  // Default task(s).
-  grunt.registerTask('default', ['copy']);
-
+  grunt.registerTask('default', ['build']);
+  grunt.registerTask('build', ['sass']);
+  grunt.registerTask('dev', ['build', 'watch']);
 };
